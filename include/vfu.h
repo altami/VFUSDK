@@ -1,6 +1,9 @@
 #ifndef VFU_H
 #define VFU_H
 
+#include "vfu_platform.h"
+#include "vfu_defines.h"
+
 /*
 Copyright (c) 2012, "Altami LTD"
 All rights reserved.
@@ -27,9 +30,6 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-
-#include "vfu_platform.h"
-#include "vfu_defines.h"
 
 #ifdef __cplusplus
 extern "C" {

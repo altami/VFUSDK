@@ -1,5 +1,5 @@
-#ifndef VFU_GLOBAL_H
-#define VFU_GLOBAL_H
+#ifndef VFU_PLATFORM_H
+#define VFU_PLATFORM_H
 
 /*
 Copyright (c) 2012, "Altami LTD"
@@ -35,11 +35,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #else
 #define VFUAPI __declspec( dllimport )
 #endif
-
-#if _MSC_VER > 1000
-#pragma once
-#endif
-// 
-// #endif
 
 #endif
